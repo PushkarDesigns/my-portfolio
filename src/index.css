@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* optional small global helpers */
+:root { --brand: #10b981;}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    @apply overflow-x-hidden 
+    text-white antialiased; 
+}
