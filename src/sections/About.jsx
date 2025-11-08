@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="py-24 bg-gradient-to-r from-gray-900 via-black to-gray-900">
       <div className="container max-w-[1100px] mx-auto px-6">
-        
+
         {/* Section Heading */}
         <div className="text-center mb-16">
           <motion.h2 initial={{ opacity: 0, y: -50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }} className="text-4xl md:text-5xl font-extrabold text-white mb-4">
@@ -22,7 +22,7 @@ const About = () => {
 
           {/* Profile Image */}
           <motion.div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }} className="relative group flex-shrink-0">
-            <img src="https://plus.unsplash.com/premium_photo-1673734625879-2dd5410bc3e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0" alt="Profile" className="w-64 h-64 object-cover rounded-full shadow-2xl border-4 border-white transition-transform duration-500 hover:scale-105 hover:shadow-3xl"/>
+            <img src="https://plus.unsplash.com/premium_photo-1673734625879-2dd5410bc3e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0" alt="Profile" className="w-64 h-64 object-cover rounded-full shadow-2xl border-4 border-white transition-transform duration-500 hover:scale-105 hover:shadow-3xl" />
           </motion.div>
 
           {/* Text Content */}
@@ -32,20 +32,20 @@ const About = () => {
             </h3>
 
             <p className="text-gray-300 text-md md:text-lg leading-relaxed mb-6">
-              Hi! I’m <span className="text-green-600 font-medium">Pushkar</span>, a BCA student and aspiring
-              full-stack developer. I specialize in creating clean, functional, and visually appealing
-              web experiences. My focus is on delivering projects that balance creativity with performance.
+              Hi! I’m <span className="text-green-600 font-medium">Pushkar</span>, a dedicated BCA student with a strong foundation in programming, databases, and web development.
+              I’m passionate about building real-world solutions, exploring new technologies, and continuously improving my technical and creative skills.
+              Currently, I’m seeking part-time or full-time opportunities where I can apply my knowledge, gain practical experience, and contribute to impactful projects.
             </p>
 
             {/* Info Grid */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-400 text-sm md:text-md">
-              <p>Birthday: <span className="text-white font-medium">01.07.1990</span></p>
-              <p>Age: <span className="text-white font-medium">28</span></p>
+              {/* <p>Birthday: <span className="text-white font-medium">01.07.1990</span></p> */}
+              {/* <p>Age: <span className="text-white font-medium">28</span></p> */}
               <p>City: <span className="text-white font-medium">Chandigarh, India</span></p>
               <p>Interests: <span className="text-white font-medium">Cricket</span></p>
               <p>Study: <span className="text-white font-medium">Rayat Bahra University</span></p>
               <p>Degree: <span className="text-white font-medium">BCA</span></p>
-              <p>Mail: <span className="text-white font-medium">pushkar@gmail.com</span></p>
+              <p>Mail: <span className="text-white font-medium">pushkar.rawat@gmail.com</span></p>
               <p>Phone: <span className="text-white font-medium">+91 6280xxxxxx</span></p>
             </div>
 
